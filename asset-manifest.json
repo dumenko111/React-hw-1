@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dumenko111/React-hw-1.git/static/css/main.7acaea2f.css",
-    "main.js": "/dumenko111/React-hw-1.git/static/js/main.ae4413f2.js",
+    "main.js": "/dumenko111/React-hw-1.git/static/js/main.bec07a86.js",
     "index.html": "/dumenko111/React-hw-1.git/index.html",
     "main.7acaea2f.css.map": "/dumenko111/React-hw-1.git/static/css/main.7acaea2f.css.map",
-    "main.ae4413f2.js.map": "/dumenko111/React-hw-1.git/static/js/main.ae4413f2.js.map"
+    "main.bec07a86.js.map": "/dumenko111/React-hw-1.git/static/js/main.bec07a86.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.ae4413f2.js"
+    "static/js/main.bec07a86.js"
   ]
 }
