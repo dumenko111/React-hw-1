@@ -1,5 +1,63 @@
 # React homework template
 
+# для того щоб в редакторі емет дописував теги потрібно в налаштуваннях, в пошуку знайти emmet.syntaxProfiles 
+# і дописати в налаштуваннях 
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+//////////////////////////////////////////////////////////////////////////////////////
+# Встановлює npx create-react-app .
+//////////////////////////////////////////////
+# Встановлює npm install --save-dev prop-types   для того щоб вказувати який тип даних ми очікуємо в пропи
+///////////////////////////////////////////////////////////////////
+# Для деплою в гіт хап пейдж потрібно в package.json вказати homepage 
+"homepage": "https://dumenko111.github.io/React-hw-1" в кінці замість React-hw-1 вказати ім'я свого репозиторію
+
+# далі добавляємо npm install --save gh-pages для автоматиного деплою
+
+в package.json потрібно добавити два нових скріпта:
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+
+# потім npm run deploy
+///////////////////////////////////////////////////////////////////
+# налаштування лінтінгу
+npm install --save-dev prettier eslint
+
+# Пользователям MacOS и Linux систем необходимо выполнить в терминале следующую команду. Она установит и настроит husky и lint-staged в зависимости от инструментов качества кода из зависимостей проекта в package.json.
+npx mrm lint-staged
+# Пользователям Windows необходимо выполнить следующую команду. Она делает тоже самое.
+npx mrm@2 lint-staged
+
+
+
+# Добавити в налаштуваннях settings.json
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+
+///////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Этот проект был создан при помощи
 [Create React App](https://github.com/facebook/create-react-app). Для знакомства
 и настройки дополнительных возможностей
