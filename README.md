@@ -39,8 +39,15 @@ npx mrm@2 lint-staged
     "source.fixAll.eslint": true
   }
 }
-
 ///////////////////////////////////////////////////////////////////
+# Для normalize css
+поставити npm i modern-normalize
+
+і добавити імпорт в index.js
+import 'modern-normalize/modern-normalize.css'
+///////////////////////////////////////////////////////////////////
+
+
 
 
 
