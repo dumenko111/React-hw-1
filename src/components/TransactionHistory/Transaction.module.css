@@ -1,0 +1,31 @@
+.transaction_history {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-left: #545454;
+  margin-bottom: 30px;
+}
+
+.head {
+  background-color: cornflowerblue;
+}
+
+.head_item {
+  padding: 15px 0px;
+  color: #fff;
+}
+
+.body_item {
+  text-align: center;
+  color: #545454;
+}
+
+.body_list:nth-child(2n +  1) {
+  background-color: #c4c4c4;
+}
+
+td {
+  padding: 10px;
+  /* border: 1px solid #545454; */
+}

@@ -1,0 +1,38 @@
+.profile {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+.description {
+  text-align: center;
+  padding: 5px;
+}
+
+.description_item {
+  margin: 5px;
+}
+
+.stats {
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #8f8f8f;
+  background-color: #c4c4c4;
+}
+
+/* .stats > li {
+  margin: 0;
+  background-color: aquamarine;
+} */
+
+.label {
+  display: block;
+}
